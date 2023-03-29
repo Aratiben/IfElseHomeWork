@@ -10,18 +10,18 @@ public class PassOrFail {
     public void Answer() {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("please type eng marks");
+        System.out.print("Please type English marks: ");
         int eng = scanner.nextInt();          //storing eng marks
-        System.out.println("please type maths marks");
+        System.out.print("Please type Maths marks: ");
         int maths = scanner.nextInt();       //storing maths marks
-        System.out.println("please type sci marks");
+        System.out.print("Please type Science marks: ");
         int sci = scanner.nextInt();        //storing sci marks
 
         if (eng >= 35 && maths >= 35 && sci >= 35)    //comparing marks with 35
         {
-            System.out.println("you have passed"); //printing result
+            System.out.println("You have Passed"); //printing result
         } else {
-            System.out.println("you have failed"); //printing result
+            System.out.println("You have Failed"); //printing result
         }
     }
 }

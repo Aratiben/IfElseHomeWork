@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class Calculater {       //class name
+public class Calculator {       //class name
     public static void maths() {                                   //method name
         Scanner scanner = new Scanner(System.in);                // using inbuilt class
-        System.out.println("please type first number");         //printing message
+        System.out.print("Please type First number: ");         //printing message
         int A = scanner.nextInt();                              //input int
-        System.out.println("please type the second number");
+        System.out.print("Please type the Second number: ");
         int B = scanner.nextInt();
-        System.out.println("please type any symbol from (-,+,/,*)");
+        System.out.print("Please type any Symbol from (-,+,/,*): ");
         char symbol = scanner.next().charAt(0);
         double c = 0;
 
@@ -20,7 +20,7 @@ public class Calculater {       //class name
         } else {                                    // symbol *
             c = A * B;
         }
-        System.out.println(c);
+        System.out.println("Result: " + c);
     }
 
     public static void main(String[] args) {

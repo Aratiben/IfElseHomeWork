@@ -7,7 +7,7 @@ public class SevenDaysOfWeek {
 
     public static void Week() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("please type any numbers");  //asking to type the numbers
+        System.out.print("Please type any Numbers: ");  //asking to type the numbers
         int numbers = scanner.nextInt();
         if (numbers == 1) {  //taking the value
             System.out.println("Today is Monday");  // printing monday

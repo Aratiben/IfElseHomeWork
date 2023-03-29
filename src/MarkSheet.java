@@ -8,20 +8,20 @@ public class MarkSheet {
 
     public void score() {
         Scanner scanner = new Scanner(System.in);  // import scanner class
-        System.out.println("Please write your name:" + "");
+        System.out.print("Please write your Name: ");
         String name = scanner.nextLine();    // storing name
-        System.out.println("please write your roll number");
+        System.out.print("Please write your Roll Number: ");
         int roll = scanner.nextInt();  // storing roll number
-        System.out.println("please enter your eng marks");
+        System.out.print("Please enter your English marks: ");
         int eng = scanner.nextInt();  //storing eng marks
-        System.out.println("please enter your maths marks");
+        System.out.print("Please enter your Maths marks: ");
         int maths = scanner.nextInt();    // storing maths marks
-        System.out.println("please enter your sci marks");
+        System.out.print("Please enter your Science marks: ");
         int sci = scanner.nextInt();    //storing sci marks
         int total = (eng + maths + sci);
         System.out.println(total);     // storing total
         double percentage = total / 3.0;
-        System.out.println("your Percentage is =" + percentage);
+        System.out.println("Your Percentage is = " + percentage);
 
         if (percentage >= 80) {
             System.out.println("You got grade A+");
@@ -31,9 +31,9 @@ public class MarkSheet {
         } else if (percentage >= 50) {
             System.out.println("You got grade B");  // printing Grade B
         } else if (percentage >= 35) {
-            System.out.println("you got grade C"); // printing Grade C
+            System.out.println("You got grade C"); // printing Grade C
         } else {
-            System.out.println("you failed"); // Printing Fail
+            System.out.println("You Failed"); // Printing Fail
         }
     }
 }

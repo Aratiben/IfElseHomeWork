@@ -6,7 +6,7 @@ public class Average {                           //class name
     {
         Scanner scanner = new Scanner(System.in);     //using inbuilt class
 
-        System.out.println("type five number");     // printing message
+        System.out.println("Type five numbers: ");     // printing message
 
         int A = scanner.nextInt(); //first int
 
@@ -19,7 +19,7 @@ public class Average {                           //class name
         int E = scanner.nextInt();  //fifth int
 
         double average = ((A + B + C + D + E) / 5.0);  //making total and divide by 5
-        System.out.println(average);
+        System.out.println("Average: " + average);
     }
 
     public static void main(String[] args) {      // main method
