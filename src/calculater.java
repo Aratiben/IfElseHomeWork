@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculater {       //class name
+public class Calculater {       //class name
 
     public static void maths() {                                   //method name
         Scanner scanner = new Scanner(System.in);                // using inbuilt class
