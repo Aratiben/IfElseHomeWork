@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Calculater {       //class name
-
     public static void maths() {                                   //method name
         Scanner scanner = new Scanner(System.in);                // using inbuilt class
         System.out.println("please type first number");         //printing message
