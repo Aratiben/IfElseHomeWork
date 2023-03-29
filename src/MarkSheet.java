@@ -1,7 +1,11 @@
-
 import java.util.Scanner;
 
 public class MarkSheet {
+    public static void main(String[] args) {
+        MarkSheet markSheet = new MarkSheet();
+        markSheet.score();
+    }
+
     public void score() {
         Scanner scanner = new Scanner(System.in);  // import scanner class
         System.out.println("Please write your name:" + "");
@@ -19,23 +23,17 @@ public class MarkSheet {
         double percentage = total / 3.0;
         System.out.println("your Percentage is =" + percentage);
 
-        if(percentage>=80){
-            System.out.println("You got grade A+");} //printing grade A+
-        else if (percentage>=60) {
+        if (percentage >= 80) {
+            System.out.println("You got grade A+");
+        } //printing grade A+
+        else if (percentage >= 60) {
             System.out.println("You got grade A");  // printing Grade A
-        }
-        else if (percentage>=50) {
+        } else if (percentage >= 50) {
             System.out.println("You got grade B");  // printing Grade B
-        }
-        else if (percentage>=35) {
+        } else if (percentage >= 35) {
             System.out.println("you got grade C"); // printing Grade C
-        }
-        else  {
+        } else {
             System.out.println("you failed"); // Printing Fail
         }
-    }
-    public static void main(String[] args) {
-        MarkSheet markSheet = new MarkSheet();
-        markSheet.score();
     }
 }

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SevenDaysOfWeek {
     public static void main(String[] args) {
-   Week();
+        Week();
     }
 
     public static void Week() {
@@ -21,13 +21,10 @@ public class SevenDaysOfWeek {
             System.out.println("Today is Friday");///printing friday
         } else if (numbers == 6) {
             System.out.println("Today is Saturday");///printing saturday
-        } else if (numbers==7) {
+        } else if (numbers == 7) {
             System.out.println("Today is Sunday");///printing sunday
-
-        }
-        else {
+        } else {
             System.out.println("Invalid Numbers");  //number is above 7 entry is invalid
         }
-
     }
 }

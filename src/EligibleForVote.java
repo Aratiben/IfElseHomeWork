@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class EligibleForVote {
     public static void main(String[] args) {            //main method
         Vote();
-
     }
+
     public static void Vote() {                        //method
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please type your age");       //input age

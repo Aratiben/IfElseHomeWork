@@ -17,13 +17,14 @@ public class calculater {       //class name
         } else if (symbol == '-') {                   // symbol -
             c = A - B;
         } else if (symbol == '/') {                   // symbol /
-            c = A*1.0 / B;
+            c = A * 1.0 / B;
         } else {                                    // symbol *
             c = A * B;
         }
         System.out.println(c);
     }
+
     public static void main(String[] args) {
         maths();
     }
-    }
+}
